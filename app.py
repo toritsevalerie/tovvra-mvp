@@ -12,7 +12,7 @@ import numpy as np
 import tiktoken
 
 load_dotenv()
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = st.secrets("OPENAI_API_KEY")
 
 st.set_page_config(page_title="Tovvra Demo", layout='wide')
 
