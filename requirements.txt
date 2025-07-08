@@ -4,3 +4,4 @@ beautifulsoup4
 requests
 faiss-cpu
 python-dotenv
+tiktoken
